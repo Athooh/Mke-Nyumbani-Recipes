@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Kaushan+Script&family=Michroma&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'poppins', sans-serif;
+    color: royalblue;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn_red {
+    padding: 10px 20px;
+    background-color: rgb(143, 36, 36);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn_blue {
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn_red:hover {
+    background-color: transparent;
+    border: 1px solid #afafaf;
+    color: black;
+    display: block;
+}
+
+.btn_blue:hover {
+    background-color: transparent;
+    border: 1px solid #afafaf;
+    color: black;
+    display: block;
+}
